@@ -1,0 +1,49 @@
+@use './variable' as *;
+@import './mixin';
+
+
+
+header{
+    padding-top: /* 37px; */ 15px;
+    padding-bottom:/* 27px; */ 15px;
+    background-color: black;
+
+    div{
+        background-color: black;
+
+        width: 1202px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        h1{
+            a{
+                img{
+                    width: 156px;
+                    height: 41px;        
+                }
+            }
+        }
+        nav{
+
+            ul{
+                display: flex;
+                justify-content: space-between;
+                li{
+                    margin-left: 31px;
+
+                    &:nth-child(6)>a{
+                        color: #fee273;
+                    }
+                    a{
+                        color:black;
+                    }
+                    
+                }
+            }
+            
+        }
+    }
+    }
+

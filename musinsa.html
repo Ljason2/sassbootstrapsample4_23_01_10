@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MUSINSA</title>
+  <link rel="stylesheet" href="./scss/reset.scss">
+  <link rel="stylesheet" href="./scss/lorem.scss">
+
+
+  <!-- cdnjs font awesome 연결 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- bootstrap 연결-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+<style>
+
+</style>
+</head>
+<body>
+<div id="wrap">
+
+  <header>
+      <div class="container-fluid">
+  <h1><a href="#"><img src="./images/musinsalogo.png" alt="logo"></a></h1>
+
+  
+<!-- navbar -->
+<div class="container">
+<div class="container">
+<nav class="navbar navbar-expand-lg bg-body-tertiary container" data-bs-theme="dark" style="padding: 0">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Home</a>
+    <button class="navbar-toggler" style="background-color: silver;" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Elements</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Pages</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Portfolio
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Portfolio1</a></li>
+            <li><a class="dropdown-item" href="#">Portfolio2</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Portfolio3</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Blog</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Shop</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled">Disabled</a>
+        </li>
+
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+</div>
+</div>
+<!-- navbar -->
+
+<!-- 밑에 원래 nav -->
+  <!-- <nav>
+    <h2 class="hide">메인네비게이션</h2>
+  <ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">Elements</a></li>
+    <li><a href="#">Pages</a></li>
+    <li><a href="#">Portfolio</a></li>
+    <li><a href="#">Blog</a></li>
+    <li><a href="#">Shop</a></li>
+    <li><a href="#">Contact</a></li>
+  </ul>
+</nav> -->
+</div>
+</header>
+
+<!-- article1 -->
+
+<article class="article1">
+  <div id="show">
+  <ul>
+
+    <!-- li:nth-child(1) -->
+  <li style="background-color: burlywood;">
+  <div>
+  <dl>
+<dt>
+<h3><span>NEW</span> COLLECTION <br>
+  <div>FOR WOMEN</div></h3>
+</dt>
+<dd>
+<p>Big sale of women's clothing from our store 30% Save on all 
+  women's clothes
+</p>
+</dd>
+
+<dd>
+<button type="button" class="start">GET STARTED</button>
+<button type="button" class="buy">BUY NOW!</button>
+</dd>
+</dl>
+
+<p><img src="./images/article1cloth/article1cloth1.jpg" alt="sale30%"></p>
+</div>
+</li>
+
+    <!-- li:nth-child(2) -->
+
+<li style="background-color: brown;">
+  <div>
+    <dl>
+  <dt>
+  <h3><span>NEW</span> COLLECTION <br>
+    <div>FOR MEN</div></h3>
+  </dt>
+  <dd>
+  <p>Big sale of men's clothing from our store 30% Save on all 
+    men's clothes
+  </p>
+  </dd>
+  
+  <dd>
+  <button type="button" class="start">GET STARTED</button>
+  <button type="button" class="buy">BUY NOW!</button>
+  </dd>
+  </dl>
+  
+  <p><img src="./images/article1cloth/article1cloth2.jpg" alt="sale30%"></p>
+  </div>
+  
+</li>
+
+    <!-- li:nth-child(3) -->
+
+<li style="background-color: pink;">
+  <div>
+    <dl>
+  <dt>
+  <h3><span>NEW</span> COLLECTION <br>
+    <div>FOR WOMEN</div></h3>
+  </dt>
+  <dd>
+  <p>Big sale of women's clothing from our store 30% Save on all 
+    women's clothes
+  </p>
+  </dd>
+  
+  <dd>
+  <button type="button" class="start">GET STARTED</button>
+  <button type="button" class="buy">BUY NOW!</button>
+  </dd>
+  </dl>
+  
+  <p><img src="./images/article1cloth/article1cloth3.jpg" alt="sale30%"></p>
+  </div>
+  
+</li>
+
+    <!-- li:nth-child(4) -->
+
+<li style="background-color: orange;">
+  <div>
+    <dl>
+  <dt>
+  <h3><span>NEW</span> COLLECTION <br>
+    <div>FOR MEN</div></h3>
+  </dt>
+  <dd>
+  <p>Big sale of men's clothing from our store 30% Save on all 
+    men's clothes
+  </p>
+  </dd>
+  
+  <dd>
+  <button type="button" class="start">GET STARTED</button>
+  <button type="button" class="buy">BUY NOW!</button>
+  </dd>
+  </dl>
+  
+  <p><img src="./images/article1cloth/article1cloth4.jpg" alt="sale30%"></p>
+  </div>
+  
+</li>
+</ul>
+</div>
+</article>
+
+
+<!-- article2 -->
+
+
+<article class="article2">
+  <div class="container">
+<h3>NEW COLLECTION</h3>
+
+<div class="row row-cols-4">
+<figure class="col p-3">
+  <img src="./images/newcollection/new1.jpg" alt="new1">
+  <img src="./images/iconmonstr-search-thin-240.png" alt="search" class="search">
+  <figcaption>
+  <dl>
+    <dt>Lorem Ipsum</dt>
+    <dd>Lorem ipsum dolor sit amet</dd>
+    <dd>$ 25.00-$29.00</dd>
+    <dd>
+      <button type="button" class="cart">add to cart</button>
+      <div>
+      <button type="button" class="link">
+        <i class="fa-solid fa-rotate-right"></i></button>
+      <button type="button" class="fav">
+        <i class="fa-solid fa-thumbs-up"></i></button>
+      </div>
+    </dd>
+  </dl>
+  </figcaption>
+</figure>
+<figure class="col p-3">
+  <img src="./images/newcollection/new2.jpg" alt="new2">
+  <img src="./images/iconmonstr-search-thin-240.png" alt="search" class="search">
+  <figcaption>
+  <dl>
+    <dt>Lorem Ipsum</dt>
+    <dd>Lorem ipsum dolor sit amet</dd>
+    <dd>$ 25.00-$29.00</dd>
+    <dd>
+      <button type="button" class="cart">add to cart</button>
+      <div>
+        <button type="button" class="link">
+          <i class="fa-solid fa-rotate-right"></i></button>
+        <button type="button" class="fav">
+          <i class="fa-solid fa-thumbs-up"></i></button>
+        </div>
+  
+    </dd>
+  </dl>
+  </figcaption>
+</figure>
+<figure class="col p-3">
+  <img src="./images/newcollection/new3.jpg" alt="new3">
+  <img src="./images/iconmonstr-search-thin-240.png" alt="search" class="search">
+  <figcaption>
+  <dl>
+    <dt>Lorem Ipsum</dt>
+    <dd>Lorem ipsum dolor sit amet</dd>
+    <dd>$ 25.00-$29.00</dd>
+    <dd>
+      <button type="button" class="cart">add to cart</button>
+      <div>
+        <button type="button" class="link">
+          <i class="fa-solid fa-rotate-right"></i></button>
+        <button type="button" class="fav">
+          <i class="fa-solid fa-thumbs-up"></i></button>
+        </div>
+  
+    </dd>
+  </dl>
+  </figcaption>
+</figure>
+<figure class="col p-3">
+  <img src="./images/newcollection/new4.jpg" alt="new4">
+  <img src="./images/iconmonstr-search-thin-240.png" alt="search" class="search">
+  <figcaption>
+  <dl>
+    <dt>Lorem Ipsum</dt>
+    <dd>Lorem ipsum dolor sit amet</dd>
+    <dd>$ 25.00-$29.00</dd>
+    <dd>
+      <button type="button" class="cart">add to cart</button>
+      <div>
+        <button type="button" class="link">
+          <i class="fa-solid fa-rotate-right"></i></button>
+        <button type="button" class="fav">
+          <i class="fa-solid fa-thumbs-up"></i></button>
+        </div>
+  
+    </dd>
+  </dl>
+  </figcaption>
+</figure>
+</div>
+</div>
+</article>
+
+
+<!-- article3 -->
+
+
+<article class="article3" >
+<div class="container">
+<h3><span>New</span>   Collection</h3>
+<dl>
+  <dt>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Duis quis est a</dt>
+  <dd>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium et quam deserunt cupiditate, animi nesciunt explicabo molestiae maxime neque, ipsum nam reprehenderit. Officia recusandae repudiandae, accusamus autem magni voluptatibus nam?</dd>
+  <dd>
+    
+    <!-- 버튼 -->
+    <!-- <button type="button" class="view">View more</button> -->
+    <select class="form-select form-select-xl mb-3" aria-label=".form-select-lg example" style="border:2px solid white;
+    background-color:antiquewhite;">
+      <option selected>Open this select menu</option>
+      <option value="1">Pants</option>
+      <option value="2">Outer</option>
+      <option value="3">Jacket</option>
+    </select>
+              
+  </dd>
+</dl>
+</div>
+</article>
+
+
+<!-- article4 -->
+
+
+<article class="article4">
+<div class="container">
+  <h3>MEN'S COLLECTION</h3>
+
+  <ul>
+    <!-- button -->
+    <p>
+  <input class="btn btn-warning" type="button" value="Clothing">
+  <input class="btn btn-info" type="button" value="Footwear">
+  <input class="btn btn-primary" type="button" value="Watches">
+  <input class="btn btn-dark" type="button" value="Sunglasses">
+</p>
+    <!-- button -->
+    <!-- <li><a href="#">Clothing</a></li>
+    <li><a href="#">Footwear</a></li>
+    <li><a href="#">Watches</a></li>
+    <li><a href="#">Sunglasses</a></li> -->
+  </ul>
+
+  <div class="row row-cols-4">
+  <figure class="col p-3">
+    <img src="./images/mencloth/men1.jpg" alt="men1">
+    <img src="./images/iconmonstr-search-thin-240.png" alt="search" class="search">
+    <figcaption>
+    <dl>
+      <dt>Lorem Ipsum</dt>
+      <dd>Lorem ipsum dolor sit amet</dd>
+      <dd>$ 25.00-$29.00</dd>
+      <dd>
+        <button type="button" class="cart">add to cart</button>
+              <div>
+      <button type="button" class="link">
+        <i class="fa-solid fa-rotate-right"></i></button>
+      <button type="button" class="fav">
+        <i class="fa-solid fa-thumbs-up"></i></button>
+      </div>
+
+      </dd>
+    </dl>
+    </figcaption>
+  </figure>
+  <figure class="col p-3">
+    <img src="./images/mencloth/men2.jpg" alt="men2">
+    <img src="./images/iconmonstr-search-thin-240.png" alt="search" class="search">
+    <figcaption>
+    <dl>
+      <dt>Lorem Ipsum</dt>
+      <dd>Lorem ipsum dolor sit amet</dd>
+      <dd>$ 25.00-$29.00</dd>
+      <dd>
+        <button type="button" class="cart">add to cart</button>
+              <div>
+      <button type="button" class="link">
+        <i class="fa-solid fa-rotate-right"></i></button>
+      <button type="button" class="fav">
+        <i class="fa-solid fa-thumbs-up"></i></button>
+      </div>
+
+      </dd>
+    </dl>
+    </figcaption>
+  </figure>
+  <figure class="col p-3">
+    <img src="./images/mencloth/men3.jpg" alt="men3">
+    <img src="./images/iconmonstr-search-thin-240.png" alt="search" class="search">
+    <figcaption>
+    <dl>
+      <dt>Lorem Ipsum</dt>
+      <dd>Lorem ipsum dolor sit amet</dd>
+      <dd>$ 25.00-$29.00</dd>
+      <dd>
+        <button type="button" class="cart">add to cart</button>
+              <div>
+      <button type="button" class="link">
+        <i class="fa-solid fa-rotate-right"></i></button>
+      <button type="button" class="fav">
+        <i class="fa-solid fa-thumbs-up"></i></button>
+      </div>
+
+      </dd>
+    </dl>
+    </figcaption>
+  </figure>
+  <figure class="col p-3">
+    <img src="./images/mencloth/men4.jpg" alt="men4">
+    <img src="./images/iconmonstr-search-thin-240.png" alt="search" class="search">
+    <figcaption>
+    <dl>
+      <dt>Lorem Ipsum</dt>
+      <dd>Lorem ipsum dolor sit amet</dd>
+      <dd>$ 25.00-$29.00</dd>
+      <dd>
+        <button type="button" class="cart">add to cart</button>
+              <div>
+      <button type="button" class="link">
+        <i class="fa-solid fa-rotate-right"></i></button>
+      <button type="button" class="fav">
+        <i class="fa-solid fa-thumbs-up"></i></button>
+      </div>
+
+      </dd>
+    </dl>
+    </figcaption>
+  </figure>
+</div>
+</div>
+</article>
+
+
+<!-- article5 -->
+
+<article class="article5">
+<div class="container">
+  <div id="view">
+        <ul id="source">
+        <li><img src="./images/womensale/womensale1.jpg" alt="womensale1"></li>
+        <li><img src="./images/womensale/womensale2.jpg" alt="womensale2"></li>
+        <li><img src="./images/womensale/womensale3.jpg" alt="womensale3"></li>
+        <li><img src="./images/womensale/womensale4.jpg" alt="womensale4"></li>
+        <li><img src="./images/womensale/womensale5.jpg" alt="womensale5"></li>
+        </ul>
+</div>
+
+<dl>
+  <dt>WOMEN'S FOOT WEAR</dt>
+  <dd>BIG DISCCOUNTS FROM OUR STORE</dd>
+  <dd><span>EXTRA <span>40%</span> OFF</span><br>
+   <div>ON ORDERS ABOVE $3,299</div></dd>
+  <dd>
+    <button type="button" class="shop">Shop now</button>
+  </dd>
+</dl>
+
+<figure>
+  <img src="./images/extra40.jpg" alt="extra40">
+  <figcaption>
+  <dl>
+    <dt>EXTRA 40% OFF</dt>
+    <dd>on Fasion wear</dd>
+  </dl>
+</figcaption>
+</figure>
+
+</div>
+</article>
+
+
+<!-- article6 -->
+
+
+<article class="article6">
+<div class="container">
+  <h3>WOMEN'S COLLECTION</h3>
+
+  <ul>
+    <!-- button -->
+    <p>
+      <input class="btn btn-warning" type="button" value="Clothing">
+      <input class="btn btn-info" type="button" value="Footwear">
+      <input class="btn btn-primary" type="button" value="Watches">
+      <input class="btn btn-dark" type="button" value="Sunglasses">
+    </p>
+    
+    <!-- button -->
+    <!-- <li><a href="#">Clothing</a></li>
+    <li><a href="#">Footwear</a></li>
+    <li><a href="#">Watches</a></li>
+    <li><a href="#">Bags and Wallets</a></li> -->
+  </ul>
+
+  <div class="row row-cols-4">
+  <figure class="col p-3">
+    <img src="./images/womencloth/women1.jpg" alt="women1">
+    <img src="./images/iconmonstr-search-thin-240.png" alt="search" class="search">
+    <figcaption>
+    <dl>
+      <dt>Lorem Ipsum</dt>
+      <dd>Lorem ipsum dolor sit amet</dd>
+      <dd>$ 25.00-$29.00</dd>
+      <dd>
+        <button type="button" class="cart">add to cart</button>
+        <div>
+          <button type="button" class="link">
+            <i class="fa-solid fa-rotate-right"></i></button>
+          <button type="button" class="fav">
+            <i class="fa-solid fa-thumbs-up"></i></button>
+          </div>
+    
+      </dd>
+    </dl>
+    </figcaption>
+  </figure>
+  <figure class="col p-3">
+    <img src="./images/womencloth/women2.jpg" alt="women2">
+    <img src="./images/iconmonstr-search-thin-240.png" alt="search" class="search">
+    <figcaption>
+    <dl>
+      <dt>Lorem Ipsum</dt>
+      <dd>Lorem ipsum dolor sit amet</dd>
+      <dd>$ 25.00-$29.00</dd>
+      <dd>
+        <button type="button" class="cart">add to cart</button>
+        <div>
+          <button type="button" class="link">
+            <i class="fa-solid fa-rotate-right"></i></button>
+          <button type="button" class="fav">
+            <i class="fa-solid fa-thumbs-up"></i></button>
+          </div>
+    
+      </dd>
+    </dl>
+    </figcaption>
+  </figure>
+  <figure class="col p-3">
+    <img src="./images/womencloth/women3.jpg" alt="women3">
+    <img src="./images/iconmonstr-search-thin-240.png" alt="search" class="search">
+    <figcaption>
+    <dl>
+      <dt>Lorem Ipsum</dt>
+      <dd>Lorem ipsum dolor sit amet</dd>
+      <dd>$ 25.00-$29.00</dd>
+      <dd>
+        <button type="button" class="cart">add to cart</button>
+        <div>
+          <button type="button" class="link">
+            <i class="fa-solid fa-rotate-right"></i></button>
+          <button type="button" class="fav">
+            <i class="fa-solid fa-thumbs-up"></i></button>
+          </div>
+    
+      </dd>
+    </dl>
+    </figcaption>
+  </figure>
+  <figure class="col p-3">
+    <img src="./images/womencloth/women4.jpg" alt="women4">
+    <img src="./images/iconmonstr-search-thin-240.png" alt="search" class="search">
+    <figcaption>
+    <dl>
+      <dt>Lorem Ipsum</dt>
+      <dd>Lorem ipsum dolor sit amet</dd>
+      <dd>$ 25.00-$29.00</dd>
+      <dd>
+        <button type="button" class="cart">add to cart</button>
+        <div>
+          <button type="button" class="link">
+            <i class="fa-solid fa-rotate-right"></i></button>
+          <button type="button" class="fav">
+            <i class="fa-solid fa-thumbs-up"></i></button>
+          </div>
+    
+      </dd>
+    </dl>
+    </figcaption>
+  </figure>
+</div>
+</div>
+</article>
+
+
+<!-- article7 -->
+
+<article class="article7">
+<div class="container">
+<h3> <span>What Our</span> customers says?</h3>
+<div>
+<p>
+  <img src="./images/mypicture.jpg" alt="mypicture">
+</p>
+
+
+<div class="container">
+<p>
+  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id, perferendis non distinctio iure inventore necessitatibus velit. Minima quibusdam ad provident molestiae veniam voluptatum illum atque autem nesciunt molestias? Repellendus, ea.
+</p>
+
+<dl>
+  <dt>namcheol Kim</dt>
+  <dd>Smartinc - Designer</dd>
+</dl>
+</div>
+</div>
+</div>
+</article>
+
+
+<!-- 바 -->
+  <a href="#" class="bar">^</a>
+ 
+
+<!-- footer -->
+
+<footer>
+<div class="container">
+<small>Copyright &copy; 2019 Designed by codelayers</small>
+</div>
+</footer>
+</div>
+
+
+
+
+<script src="./js/lorem.js"></script>
+</body>
+</html>

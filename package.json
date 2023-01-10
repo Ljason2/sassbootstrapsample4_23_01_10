@@ -1,0 +1,20 @@
+{
+  "name": "sass_bootstrap_sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel musinsa.html",
+    "build": "parcel build musinsa.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5",
+    "sass": "^1.57.1"
+  },
+  "dependencies": {
+    "jquery": "^3.6.3"
+  }
+}

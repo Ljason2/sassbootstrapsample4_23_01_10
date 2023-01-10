@@ -1,0 +1,12 @@
+.hide{
+    width: 0; height: 0;
+    font-size: 0; line-height: 0;
+    position: absolute;
+    visibility: hidden;
+}
+
+#wrap{
+    a{
+        text-decoration: none;
+    }
+}

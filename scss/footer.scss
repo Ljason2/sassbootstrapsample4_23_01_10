@@ -1,0 +1,17 @@
+@use './variable' as *;
+@import './mixin';
+
+
+/* footer */
+
+footer{
+    background-color: #2e2e2e;
+    > div{
+        width: 1202px;
+        margin:0 auto;
+        padding: 32px 0;
+        small{
+            color:#808080;
+        }
+        }
+}
