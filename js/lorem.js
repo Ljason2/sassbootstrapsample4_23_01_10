@@ -112,7 +112,7 @@ $(function(){
 
 // 공통
 // reset : 포트폴리오
-    $(window).on('resize',function(e){
-        window.location.reload();
-        })
+//     $(window).on('resize',function(e){
+//         window.location.reload();
+//         })
         

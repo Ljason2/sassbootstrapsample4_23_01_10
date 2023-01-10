@@ -1,7 +1,5 @@
 @media screen and (max-width:1050px){
-
-
-
+// article5 문제해결
 .article5{
 
     > div{
@@ -45,8 +43,186 @@
     }
 
 
+    // article 2,4,6을 이미지 2개씩 정렬
+    @media screen and (max-width:760px){
+
+        .article2{
+            >div{            
+                > div{
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+            
+                    figure{
+                        width: 35vw;
+                        img{                        
+                        }
+            
+                        &:hover img{
+                        }
+                        &:hover .search{
+                        }
+            
+                        .search{
+                        }
+            
+                        figcaption{
+                            dl{
+                                dt{
+                                } 
+            
+                                dd:nth-child(2){
+                                }
+            
+                                dd:nth-child(3){
+                                }
+            
+                                dd:nth-child(4){
+            
+                                    > button{
+                                        &:hover{
+                                        }
+                                    }
+                                    
+                                    > div{
+                                    .link{
+                                    }
+                                    .fav{
+                                    }
+                                }
+                                }
+                            }
+                        }
+            
+                        &:nth-child(2){
+                            dt{
+                            }
+                        }
+                    }
+                }
+            }
+            }
 
 
+            .article4{
+                >div{            
+                    > div{
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                
+                        figure{
+                            width: 35vw;
+                            img{                        
+                            }
+                
+                            &:hover img{
+                            }
+                            &:hover .search{
+                            }
+                
+                            .search{
+                            }
+                
+                            figcaption{
+                                dl{
+                                    dt{
+                                    } 
+                
+                                    dd:nth-child(2){
+                                    }
+                
+                                    dd:nth-child(3){
+                                    }
+                
+                                    dd:nth-child(4){
+                
+                                        > button{
+                                            &:hover{
+                                            }
+                                        }
+                                        
+                                        > div{
+                                        .link{
+                                        }
+                                        .fav{
+                                        }
+                                    }
+                                    }
+                                }
+                            }
+                
+                            &:nth-child(2){
+                                dt{
+                                }
+                            }
+                        }
+                    }
+                }
+                }
+    
+
+
+                .article6{
+                    >div{            
+                        > div{
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+                    
+                            figure{
+                                width: 35vw;
+                                img{                        
+                                }
+                    
+                                &:hover img{
+                                }
+                                &:hover .search{
+                                }
+                    
+                                .search{
+                                }
+                    
+                                figcaption{
+                                    dl{
+                                        dt{
+                                        } 
+                    
+                                        dd:nth-child(2){
+                                        }
+                    
+                                        dd:nth-child(3){
+                                        }
+                    
+                                        dd:nth-child(4){
+                    
+                                            > button{
+                                                &:hover{
+                                                }
+                                            }
+                                            
+                                            > div{
+                                            .link{
+                                            }
+                                            .fav{
+                                            }
+                                        }
+                                        }
+                                    }
+                                }
+                    
+                                &:nth-child(2){
+                                    dt{
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    }
+        
+    }
+
+    
 // search 가운데 정렬하기
 @media screen and (min-width:975px) and (max-width:1189px){
 
@@ -108,7 +284,7 @@
 
 
 // 
-@media screen and (min-width:757px) and (max-width:974px){
+@media screen and (min-width:750px) and (max-width:974px){
 
     .article2{
         >div{
@@ -164,7 +340,7 @@
 
     }
 
-    @media screen and (max-width:756px){
+    @media screen and (max-width:749px){
 
         .article2{
             >div{
@@ -176,7 +352,7 @@
             margin-left:-5vw;
             margin-top: -7.5vh;
             left: 50%;
-            top: 17%;
+            top: 31%;
         }
         }
         }
@@ -193,7 +369,7 @@
             margin-left:-5vw;
             margin-top: -7.5vh;
             left: 50%;
-            top: 17%;
+            top: 31%;
         }
         }
         }
@@ -211,7 +387,7 @@
             margin-left:-5vw;
             margin-top: -7.5vh;
             left: 50%;
-            top: 17%;
+            top: 31%;
         }
         }
         }
@@ -219,4 +395,3 @@
         }
     
         }
-        // search 가운데 정렬하기
