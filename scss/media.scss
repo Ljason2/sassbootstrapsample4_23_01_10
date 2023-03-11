@@ -23,6 +23,14 @@
 
 }
 
+
+@media screen and (max-width:577px){
+.article5>div{
+    width: 100vw;
+}
+}
+
+
 // article1 줄였을 때 이미지 짤리는 부분 해결
 @media screen and (max-width:737px){
     .article1{
@@ -222,6 +230,194 @@
         
     }
 
+
+
+
+        // article 2,4,6을 이미지 1개씩 정렬
+        @media screen and (max-width:577px){
+
+            .article2{
+                >div{            
+                    > div{
+                        display: block;
+                        width: 100vw;
+                        figure{
+                            margin: 0 auto 28px; 
+                            width: 75vw;
+                            img{                        
+                            }
+                
+                            &:hover img{
+                            }
+                            &:hover .search{
+                            }
+                
+                            .search{
+                            }
+                
+                            figcaption{
+                                dl{
+                                    dt{
+                                    } 
+                
+                                    dd:nth-child(2){
+                                    }
+                
+                                    dd:nth-child(3){
+                                    }
+                
+                                    dd:nth-child(4){
+                
+                                        > button{
+                                            &:hover{
+                                            }
+                                        }
+                                        
+                                        > div{
+                                        .link{
+                                        }
+                                        .fav{
+                                        }
+                                    }
+                                    }
+                                }
+                            }
+                
+                            &:nth-child(2){
+                                dt{
+                                }
+                            }
+                        }
+                    }
+                }
+                }
+    
+    
+                .article4{
+                    >div{            
+                        > div{
+                            display: block;
+                            width: 100vw;
+                            figure{
+                                margin: 0 auto 28px; 
+                                width: 75vw;
+                                    img{                        
+                                }
+                    
+                                &:hover img{
+                                }
+                                &:hover .search{
+                                }
+                    
+                                .search{
+                                }
+                    
+                                figcaption{
+                                    dl{
+                                        dt{
+                                        } 
+                    
+                                        dd:nth-child(2){
+                                        }
+                    
+                                        dd:nth-child(3){
+                                        }
+                    
+                                        dd:nth-child(4){
+                    
+                                            > button{
+                                                &:hover{
+                                                }
+                                            }
+                                            
+                                            > div{
+                                            .link{
+                                            }
+                                            .fav{
+                                            }
+                                        }
+                                        }
+                                    }
+                                }
+                    
+                                &:nth-child(2){
+                                    dt{
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    }
+        
+    
+    
+                    .article6{
+                        >div{            
+                            > div{
+                                display:block;
+                                width: 100vw;
+                                figure{
+                                    width: 96vw;
+                                    margin: 0 auto 28px; 
+                                    width: 75vw;    
+                                    img{                        
+                                    }
+                        
+                                    &:hover img{
+                                    }
+                                    &:hover .search{
+                                    }
+                        
+                                    .search{
+                                    }
+                        
+                                    figcaption{
+                                        dl{
+                                            dt{
+                                            } 
+                        
+                                            dd:nth-child(2){
+                                            }
+                        
+                                            dd:nth-child(3){
+                                            }
+                        
+                                            dd:nth-child(4){
+                        
+                                                > button{
+                                                    &:hover{
+                                                    }
+                                                }
+                                                
+                                                > div{
+                                                .link{
+                                                }
+                                                .fav{
+                                                }
+                                            }
+                                            }
+                                        }
+                                    }
+                        
+                                    &:nth-child(2){
+                                        dt{
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        }
+            
+        }
+    
+
+
+
+
+
+
+
+
     
 // search 가운데 정렬하기
 @media screen and (min-width:975px) and (max-width:1189px){
@@ -394,4 +590,128 @@
         }
         }
     
+        }
+
+
+
+        @media screen and (max-width:577px){
+
+            .article2{
+                >div{
+                    >div{
+                        figure{
+            .search{
+                width: 10vw;
+                height: 15vh;
+                margin-left:-5vw;
+                margin-top: -7.5vh;
+                left: 50%;
+                top: 37%;
+            }
+            }
+            }
+            }
+            }
+    
+            .article4{
+                >div{
+                    >div{
+                        figure{
+            .search{
+                width: 10vw;
+                height: 15vh;
+                margin-left:-5vw;
+                margin-top: -7.5vh;
+                left: 50%;
+                top: 37%;
+            }
+            }
+            }
+            }
+            }
+        
+        
+            .article6{
+                >div{
+                    >div{
+                        figure{
+            .search{
+                width: 10vw;
+                height: 15vh;
+                margin-left:-5vw;
+                margin-top: -7.5vh;
+                left: 50%;
+                top: 37%;
+            }
+            }
+            }
+            }
+            }
+        
+            }
+    
+    
+
+        // article3 조정하기
+
+        @media screen and (max-width:577px){
+       .article3>div{
+        width: 94vw;
+       }
+
+       
+        }
+
+
+        // 남성, 여성 컬렉션 버튼 조정하기
+        @media screen and (max-width:422px){
+         .article4>div>ul>p{
+            width: 70vw;
+         }   
+         .article6>div>ul>p{
+            width: 70vw;
+         }   
+
+        }
+
+
+
+        @media screen and (max-width:381px){
+            footer>div>small{
+                display: block;
+                width: 70%;
+            }
+        }
+
+
+
+        // 슬라이드 부분 이미지 잘리는거 해결하기
+        @media screen and (max-width:677px){
+            .article1 > div#show > ul > li > div dl{
+                display: none;
+            }
+
+            .article1 > div#show > ul > li > div{
+                justify-content: center;
+            }
+        }
+
+
+        // 맨위에 헤더 잘 안보이는거 해결하기
+
+        @media screen and (max-width:698px){
+
+            header div h1{
+                width: 105px;
+            }
+
+            header div h1 a img{
+                width: 106px;
+                height: 33px;
+            }
+
+            header div div>div{
+                width: 98%;
+            }
+
         }
