@@ -39,35 +39,38 @@
 
 1. 반응형 사이트로서 미디어쿼리와 가변그리드, Bootstrap 의 Layout 을 이용하여 웹, 태블릿, 모바일에서 작동할 수 있는 홈페이지 개발.
     
-        -작성 예정
+        Bootstrap에서는 Layout의 Container와 Grid, Gutters등을 사용하였고, 
+        미디어 쿼리와 가변그리드를 통해 전반적인 반응형과 특정 부분에서 발생하는 비율 문제들을 해결하였다.
 
 
 #### SCSS 사용
 
 1. SCSS를 사용하여 홈페이지의 스타일 완성.
 
-        -작성 예정
+        먼저 CSS3로 코드를 작성한 뒤, SCSS로 변형하여 홈페이지 스타일을 완성하였다.
 
         
 #### Bootstrap 사용
 
 1.  Bootstrap을 사용하여 홈페이지의 Layout, header의 navbar, 선택 메뉴, 메뉴 버튼 등을 개발.
 
-        -작성 예정
+        Bootstrap에서 Forms의 select와 Components의 Navbar, Buttons를 사용하였다.
 
 
 #### 돋보기 기능 개발
 
 1.  상품에 마우스를 올리면 돋보기가 나오는 기능 구현.
     
-        -작성 예정
+        Figure에 Img 요소 두개를 만들어서 마우스를 상품위에 올려 놓으면 hover 속성으로 인해서 
+        돋보기 창이 나오게끔 하였다.
 
 
 #### 슬라이드 기능 개발
 
 1. JQuery 로 배너와 상품이 움직이는 슬라이드 기능을 개발.
 
-        -작성 예정
+        JQuery를 사용하여 setInterval과 clearInterval 등의 타이머 함수로 
+        배너에 마우스를 올려놓으면 배너가 정지하고, 마우스를 떼면 움직이게 하였다.
 
 
 ## :pencil2:피드백
